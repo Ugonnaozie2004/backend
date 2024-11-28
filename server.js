@@ -33,7 +33,7 @@ let ordersCollection;
 
 
 // Middleware setup
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 app.use(morgan("short"));
 
