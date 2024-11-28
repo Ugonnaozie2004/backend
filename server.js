@@ -35,7 +35,6 @@ let ordersCollection;
 // Middleware setup
 app.use(cors());
 app.use(express.json());
-app.use(morgan("short"));
 
 const staticMiddleware = express.static(path.join(__dirname, '../frontend'));
 
